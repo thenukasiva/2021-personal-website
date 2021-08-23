@@ -68,7 +68,7 @@ const Nav = (): JSX.Element => {
           gridGap="2rem"
           alignItems="center"
           justifyItems="center"
-          gridTemplateColumns="repeat(4, auto)"
+          gridTemplateColumns="repeat(5, auto)"
           style={{
             borderRadius: '25px',
             background: 'rgba(0, 0, 0, 0.04)',
@@ -91,6 +91,7 @@ const Nav = (): JSX.Element => {
           <NavLink href="/about">about</NavLink>
           <NavLink href="/work">work</NavLink>
           <NavLink href="/projects">projects</NavLink>
+          <NavLink href="/blog">blog</NavLink>
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
