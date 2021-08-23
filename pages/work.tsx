@@ -31,7 +31,6 @@ const Work = ({ experiences }: AboutProps): JSX.Element => {
                   justifyItems="flex-start"
                   gridGap="1rem"
                   paddingY="2rem"
-                  borderBottom="1px solid rgba(0,0,0,0.1)"
                 >
                   <Container width="100%">
                   </Container>

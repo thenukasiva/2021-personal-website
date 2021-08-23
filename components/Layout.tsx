@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({
   <div className={styles.container}>
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/tlogo.jpeg" />
       <meta charSet="utf-8" />
       <meta name="author" content="thenuka siva" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
