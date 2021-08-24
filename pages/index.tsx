@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-
-import { Container, Title, Button, Grid, Link, Text } from '@components';
+import { Container, Title, Button, Link, Text } from '@components';
 import styles from '@styles/Home.module.css';
 
 const Home = (): JSX.Element => (

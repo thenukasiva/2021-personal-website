@@ -23,7 +23,7 @@ const states: { [key: string]: React.CSSProperties } = {
   },
   '/blog': {
     left: '315px',
-    width: '51px',
+    width: '50px',
   },
 
 };
@@ -65,7 +65,7 @@ const Nav = (): JSX.Element => {
       gridTemplateColumns={['1fr', '1fr', '1fr 1fr 1fr']}
     >
       <Container display={['none', 'none', 'flex']}>
-        <NavLink href="/">thenuka siva 🌻</NavLink>
+        <NavLink href="/">thenuka siva. 🌻</NavLink>
       </Container>
       <Container alignContent="center">
         <Grid
@@ -83,7 +83,7 @@ const Nav = (): JSX.Element => {
         >
           <div
             style={{
-              background: 'pink',
+              background: '#daded2',
               position: 'absolute',
               borderRadius: '25px',
               height: '85%',
@@ -100,7 +100,7 @@ const Nav = (): JSX.Element => {
         </Grid>
       </Container>
       <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:thenukasiva@yahoo.com">contact ✉️</NavLink>
+        <NavLink href="mailto:thenukasiva@yahoo.com">contact. ✉️</NavLink>
       </Container>
     </Grid>
   );

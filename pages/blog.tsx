@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Text, Container, Link, Button } from '@components';
+import { Title, Text, Container} from '@components';
 import Head from 'next/head';
 
 

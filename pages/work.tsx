@@ -1,8 +1,6 @@
 import React from 'react';
 import { Title, Text, Container, Grid, Link, Button } from '@components';
 import { GetStaticProps } from 'next';
-import Head from 'next/head';
-
 import { getPosts, Post } from '@posts';
 
 interface AboutProps {

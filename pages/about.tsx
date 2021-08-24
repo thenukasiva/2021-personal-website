@@ -20,7 +20,7 @@ const About = (): JSX.Element =>  (
           <Text>
           I just wrapped up my first co-op term at {''} 
           <a href="https://www.uptake.com">Uptake</a> as a <b>Full-Stack Developer Intern </b>
-          where I worked with <b>SQL</b>, <b>Angular</b> and <b>.NET</b> to help build new features, fix customer supported issues and refactor code.
+          where I worked with <b>SQL</b>, <b>Angular</b> and <b>.NET</b> to help build new features, fix customer reported issues and refactor code.
           </Text>
           <Text>
           Aside from my coding experience, 
@@ -31,7 +31,7 @@ const About = (): JSX.Element =>  (
           Youth Ottawa</b> where I led and executed events that directly 
           gave back to the community.
           </Text>
-          <Text>When I'm not busy coding or completing schoolwork, I enjoy cooking new dishes, learning new instruments, doing yoga and making spotify playlists!
+          <Text>When I'm not busy coding or completing schoolwork, I enjoy exploring vegan dishes, learning new instruments, and making spotify playlists!
           </Text>
         </Container>
         <Link href="/work">
