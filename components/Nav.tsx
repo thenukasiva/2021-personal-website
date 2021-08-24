@@ -21,6 +21,11 @@ const states: { [key: string]: React.CSSProperties } = {
     left: '224px',
     width: '79px',
   },
+  '/blog': {
+    left: '315px',
+    width: '51px',
+  },
+
 };
 
 const NavLink = styled.a`
@@ -78,7 +83,7 @@ const Nav = (): JSX.Element => {
         >
           <div
             style={{
-              background: 'white',
+              background: 'pink',
               position: 'absolute',
               borderRadius: '25px',
               height: '85%',
