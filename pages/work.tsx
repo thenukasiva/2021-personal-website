@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Text, Container, Grid, Link, Card } from '@components';
+import { Title, Text, Container, Grid, Link, Button } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
@@ -63,6 +63,9 @@ const Work = ({ experiences }: AboutProps): JSX.Element => {
                   </Grid>
                 </Grid>
             ))}
+            <Link href="img/resume.pdf">
+          <Button>Resume &rarr;</Button>
+        </Link>
           </Container>
         </Container>
       </Container>
