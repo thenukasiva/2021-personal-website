@@ -1,10 +1,8 @@
 import styled from 'styled-components';
-import Container from './Container';
-import Grid from './Grid';
 import Link from './Link';
 import Text from './Text';
 import React from 'react';
-import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { SiGithub, SiLinkedin} from 'react-icons/si';
 import { MdMail } from 'react-icons/md';
 
 
@@ -41,7 +39,7 @@ const Footer = (): JSX.Element => {
         icon: MdMail,
       },
       {
-        url: 'https://linkedin.com/in/thenuka-sive',
+        url: 'https://www.linkedin.com/in/thenukasiva',
         icon: SiLinkedin,
       },
     ],

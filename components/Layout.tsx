@@ -25,14 +25,12 @@ const Layout: React.FC<LayoutProps> = ({
       <meta property="og:title" content="thenuka siva" />
       <meta
         property="og:description"
-        content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
+        content="Computer Science @ University of Waterloo. Always learning."
       />
       <meta property="og:type" content="website" />
-      <meta property="twitter:site" content="@_shellbear" />
-      <meta name="twitter:card" content="summary_large_image" />
       <meta
         property="og:image"
-        content="https://shellbear.me/img/preview.png"
+        content=""
       />
       {process.env.NODE_ENV === 'production' && (
         <>
