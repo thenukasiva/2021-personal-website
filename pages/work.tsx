@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Text, Container, Grid, Link, Button } from '@components';
+import { Title, Text, Container, Grid, Link, Button, List } from '@components';
 import { GetStaticProps } from 'next';
 import { getPosts, Post } from '@posts';
 
@@ -9,7 +9,9 @@ interface AboutProps {
 
 const Work = ({ experiences }: AboutProps): JSX.Element => {
     return (
+      
       <Container>
+      
         <Container
           alignContent="center"
           alignItems="center"
@@ -23,6 +25,7 @@ const Work = ({ experiences }: AboutProps): JSX.Element => {
           </Title>
           <Container width="100%">
             {experiences.map(({ data }, i) => (
+              
                 <Grid
                   key={i}
                   gridTemplateColumns="1fr 4fr"
@@ -57,6 +60,7 @@ const Work = ({ experiences }: AboutProps): JSX.Element => {
                         </Text>
                       </Grid>
                       <Text fontSize="1rem">{data.caption}</Text>
+                      <List marginY="1rem">{data.tags}</List>
                     </Container>
                   </Grid>
                 </Grid>

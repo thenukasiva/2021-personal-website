@@ -34,7 +34,7 @@ const Home = (): JSX.Element => (
           </Text>
         </Container>
         <Link href="/about">
-          <Button>More about me &rarr;</Button>
+          <Button>About me</Button>
         </Link>
       </Container>
     </Container>

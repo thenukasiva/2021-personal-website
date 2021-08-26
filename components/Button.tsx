@@ -79,7 +79,7 @@ const Button = styled.button<
         backgroundColor: '#f5f6fa',
         '&:hover': {
           color: 'white',
-          backgroundColor: 'black',
+          backgroundColor: '#daded2',
           transform: 'scale(1.04)',
         },
       },
