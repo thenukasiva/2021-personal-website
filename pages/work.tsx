@@ -2,6 +2,7 @@ import React from 'react';
 import { Title, Text, Container, Grid, Link, Button, List } from '@components';
 import { GetStaticProps } from 'next';
 import { getPosts, Post } from '@posts';
+import Head from 'next/head';
 
 interface AboutProps {
   experiences: Post[];
@@ -11,6 +12,9 @@ const Work = ({ experiences }: AboutProps): JSX.Element => {
     return (
       
       <Container>
+        <Head>
+        <title>work.</title>
+      </Head>
       
         <Container
           alignContent="center"

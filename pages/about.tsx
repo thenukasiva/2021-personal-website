@@ -6,7 +6,7 @@ import Head from 'next/head';
 const About = (): JSX.Element =>  (
     <Container>
       <Head>
-        <title>About</title>
+        <title>about.</title>
       </Head>
       <Container alignContent="center" alignItems="center">
         <Title fontSize={['3rem', '4rem']} as="h2">

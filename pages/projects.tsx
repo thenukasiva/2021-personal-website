@@ -40,7 +40,7 @@ const ProjectButton = styled(Button)`
 const Projects = ({ projects }: ProjectProps): JSX.Element => (
   <Container marginBottom="5rem">
     <Head>
-      <title>my projects</title>
+      <title>my projects.</title>
     </Head>
     <Container alignItems="center">
       <Title>my projects. ⚙️</Title>
