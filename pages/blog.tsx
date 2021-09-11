@@ -14,8 +14,7 @@ const Blog = (): JSX.Element =>  (
         </Title>
         <Container maxWidth={['100%', '700px']} marginY="2rem">
           <Text>
-          A series of some of my random thoughts and reflections while I navigate my 20s.
-          Coming soon!
+          A series of some of my random thoughts and reflections. Coming soon!
           </Text>
         </Container>
       </Container>

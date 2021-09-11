@@ -45,9 +45,10 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
     <Container alignItems="center">
       <Title>my projects. ⚙️</Title>
       <Text textAlign="center">
-        i'm always learning and building new things.
+        i'm always learning and building new things. 
         <br/> 
-        <a href="https://github.com/thenukasiva">github</a>.
+        more on my 
+        <a href="https://github.com/thenukasiva"> github</a>.
       </Text>
     </Container>
     <Grid
