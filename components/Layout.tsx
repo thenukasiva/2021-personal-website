@@ -18,6 +18,7 @@ const Layout: React.FC<LayoutProps> = ({
   <div className={styles.container}>
     <Head>
       <title>{title}</title>
+      <link rel="icon" href="/tlogo.png" />
       <meta charSet="utf-8" />
       <meta name="author" content="thenuka siva" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
