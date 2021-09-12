@@ -20,7 +20,7 @@ const About = (): JSX.Element =>  (
           <Text>
           I just wrapped up my first co-op term at {''} 
           <a href="https://www.uptake.com">Uptake</a> as a <b>Full-Stack Developer Intern </b>
-          where I worked with <b>SQL</b>, <b>Angular</b> and <b>.NET</b> to help build new features, fix customer reported issues and refactor code.
+          where I worked with <b>SQL</b>, <b>Angular</b> and <b>ASP.NET</b> to help build new features, fix customer reported issues and refactor code.
           </Text>
           <Text>
           Aside from my coding experience, 
