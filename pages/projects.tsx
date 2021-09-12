@@ -45,9 +45,9 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
     <Container alignItems="center">
       <Title>my projects. ⚙️</Title>
       <Text textAlign="center">
-        i'm always learning and building new things. 
+        I'm always learning and building new things. 
         <br/> 
-        more on my 
+        More on my 
         <a href="https://github.com/thenukasiva"> github</a>.
       </Text>
     </Container>
