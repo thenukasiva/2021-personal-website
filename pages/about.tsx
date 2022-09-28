@@ -11,29 +11,19 @@ const About = (): JSX.Element => (
       <Title fontSize={["3rem", "4rem"]} as="h2">
         about me.👩🏾‍💻
       </Title>
-      <Container maxWidth={["100%", "700px"]} marginY="2rem">
+      <Container maxWidth={["100%", "700px"]} marginY="1rem">
         <Text>
-          I'm a 2B Computer Science student at the{" "}
+          I'm a 3A Computer Science student at the{" "}
           <b>University of Waterloo. </b>I am passionate about learning
           innovative technologies and making projects that have a positive
           social impact.
         </Text>
         <Text>
-          I'm currently on my second co-op term at {""}
-          <a href="https://www.imaginecommunications.com">
-            Imagine Communications
-          </a>{" "}
-          as a <b>Front-end Developer Intern </b>
-          where I am working with <b>AngularJS</b>, <b>Typescript</b> and{" "}
-          <b>Vue</b> to help build new features to production.
-        </Text>
-        <Text>
-          Aside from my coding experience, I have diverse range of leadership
-          and volunteer work that have helped me grow into the person I am
-          today. In the past, I was the Co-Founder of my high school's
-          <b> Amnesty International Club </b>and the Marketing Chair at{" "}
-          <b>Sustainable Youth Ottawa</b> where I led and executed events that
-          directly gave back to the community.
+          I'm currently on my third co-op term at {""}
+          <a href="https://www.tulip.com/">Tulip</a> as a{" "}
+          <b>Back-end Developer Intern </b>
+          where I am working with <b>Golang</b>, <b>PHP</b> and <b>Docker</b> to
+          help build new API and integration features to production.
         </Text>
         <Text>
           When I'm not busy coding or completing schoolwork, I enjoy exploring
