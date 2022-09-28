@@ -1,31 +1,30 @@
-import { useRouter } from 'next/router';
-import React from 'react';
-import Grid from './Grid';
-import Container from './Container';
-import styled from 'styled-components';
+import { useRouter } from "next/router";
+import React from "react";
+import Grid from "./Grid";
+import Container from "./Container";
+import styled from "styled-components";
 
 const states: { [key: string]: React.CSSProperties } = {
-  '/': {
-    left: '6px',
-    width: '61px',
+  "/": {
+    left: "6px",
+    width: "61px",
   },
-  '/about': {
-    left: '81px',
-    width: '65px',
+  "/about": {
+    left: "81px",
+    width: "65px",
   },
-  '/work': {
-    left: '157px',
-    width: '55px',
+  "/work": {
+    left: "157px",
+    width: "55px",
   },
-  '/projects': {
-    left: '224px',
-    width: '79px',
+  "/projects": {
+    left: "224px",
+    width: "79px",
   },
-  '/blog': {
-    left: '315px',
-    width: '50px',
+  "/blog": {
+    left: "315px",
+    width: "50px",
   },
-
 };
 
 const NavLink = styled.a`
@@ -45,9 +44,9 @@ const NavLink = styled.a`
 
 const Nav = (): JSX.Element => {
   const router = useRouter();
-  let navStyle = states['/'];
+  let navStyle = states["/"];
 
-  if (router.asPath !== '/') {
+  if (router.asPath !== "/") {
     for (const path of Object.keys(states).slice(1)) {
       if (router.asPath.startsWith(path)) {
         navStyle = states[path];
@@ -62,9 +61,9 @@ const Nav = (): JSX.Element => {
       alignContent="center"
       justifyContent="space-between"
       my="3rem"
-      gridTemplateColumns={['1fr', '1fr', '1fr 1fr 1fr']}
+      gridTemplateColumns={["1fr", "1fr", "1fr 1fr 1fr"]}
     >
-      <Container display={['none', 'none', 'flex']}>
+      <Container display={["none", "none", "flex"]}>
         <NavLink href="/">thenuka siva. 🌻</NavLink>
       </Container>
       <Container alignContent="center">
@@ -75,20 +74,20 @@ const Nav = (): JSX.Element => {
           justifyItems="center"
           gridTemplateColumns="repeat(4, auto)"
           style={{
-            borderRadius: '25px',
-            background: 'rgba(0, 0, 0, 0.04)',
-            padding: '15px',
-            position: 'relative',
+            borderRadius: "25px",
+            background: "rgba(0, 0, 0, 0.04)",
+            padding: "15px",
+            position: "relative",
           }}
         >
           <div
             style={{
-              background: '#daded2',
-              position: 'absolute',
-              borderRadius: '25px',
-              height: '85%',
-              left: '6px',
-              width: '60px',
+              background: "#daded2",
+              position: "absolute",
+              borderRadius: "25px",
+              height: "85%",
+              left: "6px",
+              width: "60px",
               ...navStyle,
             }}
           />
@@ -98,8 +97,8 @@ const Nav = (): JSX.Element => {
           <NavLink href="/projects">projects</NavLink>
         </Grid>
       </Container>
-      <Container alignContent="flex-end" display={['none', 'none', 'flex']}>
-        <NavLink href="mailto:thenukasiva@yahoo.com">contact. ✉️</NavLink>
+      <Container alignContent="flex-end" display={["none", "none", "flex"]}>
+        <NavLink href="mailto:thenukasivagna@gmail.com">contact. ✉️</NavLink>
       </Container>
     </Grid>
   );

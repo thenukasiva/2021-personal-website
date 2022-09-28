@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import { Container, Title, Button, Link, Text } from '@components';
-import styles from '@styles/Home.module.css';
+import React from "react";
+import Image from "next/image";
+import { Container, Title, Button, Link, Text } from "@components";
+import styles from "@styles/Home.module.css";
 
 const Home = (): JSX.Element => (
   <Container>
@@ -28,9 +28,10 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="1rem">
         <Container>
           <Text textAlign="center">
-            Hello!👋 I'm a second year CS student at University of Waterloo passionate
-            about tech for social good, solving complex problems and full-stack development. I'm currently seeking
-            2022 internships!
+            Hello!👋 I'm a third year Computer Science student at University of
+            Waterloo passionate about tech for social good, solving complex
+            problems and full-stack development. I'm currently seeking 2023
+            internships!
           </Text>
         </Container>
         <Link href="/about">
