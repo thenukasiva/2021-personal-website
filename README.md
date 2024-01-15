@@ -1,5 +1,7 @@
 ## Personal Website V2 built using Next.js, Typescript, Styled-Components
 
+thenukasiva.me
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## How to set up locally
